@@ -2,6 +2,7 @@ FROM node:16-alpine AS builder
 WORKDIR "/app"
 COPY . .
 RUN npm ci
+RUN npm run test
 RUN npm run build
 # RUN npx mikro-orm migration:fresh
 RUN npm prune --production

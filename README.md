@@ -31,6 +31,10 @@
 ```bash
 $ npm install
 ```
+Create db schema
+```bash
+$ npx mikro-orm migration:create -r
+```
 
 ## Running the app
 
@@ -57,6 +61,13 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+## Docker deployment
+
+```bash
+docker-compose up -d --build nest-project
+```
+
 
 ## Support
 
