@@ -8,6 +8,9 @@
 # temp files
 /temp
 
+# sqlite db
+*.db
+
 # Logs
 logs
 *.log
