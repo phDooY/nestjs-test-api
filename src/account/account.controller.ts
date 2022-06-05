@@ -13,9 +13,9 @@ import {
 import { AccountService } from './account.service';
 import { AccountDto } from './dto/account.dto';
 import { AccountCreateDto } from './dto/account.create.dto';
-import { JwtAuthGuard } from 'src/auth/jwt-auth.guard';
+import { JwtAuthGuard } from '../auth/jwt-auth.guard';
 import { JwtService } from '@nestjs/jwt';
-import { logAccountData } from 'src/shared/utils';
+import { logAccountData } from '../shared/utils';
 
 @Controller('account')
 export class AccountController {

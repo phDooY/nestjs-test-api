@@ -4,7 +4,7 @@ import { InjectRepository } from '@mikro-orm/nestjs';
 import { EntityRepository } from '@mikro-orm/sqlite';
 import { Account } from './account.entity';
 import { AccountCreateDto } from './dto/account.create.dto';
-import { toAccountDto } from 'src/shared/mapper';
+import { toAccountDto } from '../shared/mapper';
 
 @Injectable()
 export class AccountService {

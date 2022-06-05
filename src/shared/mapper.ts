@@ -1,5 +1,5 @@
-import { Account } from 'src/account/account.entity';
-import { AccountDto } from 'src/account/dto/account.dto';
+import { Account } from '../account/account.entity';
+import { AccountDto } from '../account/dto/account.dto';
 
 export const toAccountDto = (data: Account): AccountDto => {
   const { id, name, type, balance, createdAt, ownerId } = data;
