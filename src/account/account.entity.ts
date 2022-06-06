@@ -30,7 +30,7 @@ export class Account {
     ownerId: number;
 }
 
-export const enum AccountType {
+export enum AccountType {
   CUSTODIAL = 'custodial',
   PSP = 'psp',
 }
