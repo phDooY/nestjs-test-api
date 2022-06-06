@@ -40,7 +40,7 @@ $ cp .env.example ./.env
 
 ### Create db schema
 ```bash
-$ npx mikro-orm migration:create -r
+$ npx mikro-orm schema:create -r
 ```
 
 ## Running the app
