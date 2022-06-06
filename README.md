@@ -28,10 +28,17 @@
 
 ## Installation
 
+### Packages
 ```bash
 $ npm install
 ```
-Create db schema
+
+### Copy .env file
+```bash
+$ cp .env.example ./.env
+```
+
+### Create db schema
 ```bash
 $ npx mikro-orm migration:create -r
 ```
