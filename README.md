@@ -72,7 +72,7 @@ $ npm run test:cov
 ## Docker deployment
 
 ```bash
-docker-compose up -d --build nest-project
+docker-compose up -d --build
 ```
 
 
